@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px
+}
+
+.left-section {
+    width: 200px;
+}
+
+.menu-logo {
+    width: 24px;
+    margin-left: 23px;
+    margin-right: 24px;
+}
+
+.yt-logo {
+    width: 90px;
+}
+
+.middle-section {
+    background-color: lightpink;
+    flex: 1;
+    max-width: 500px;
+}
+
+.right-section {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 25px;
+}
+.upload-icon {
+    width: 25px;
+}
+
+.yt-apps-logo {
+    width: 25px;
+}
+
+.notifcation-logo {
+    width: 25px;
+}
+
+.my-channel {
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+    object-position: 80%;
+    border-radius: 20px;
+}
