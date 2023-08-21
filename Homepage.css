@@ -2,41 +2,40 @@ p {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
-
-.video-box {
-    width: 430px;
-    display: inline-block;
+.videos-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 70px;
+    column-gap: 20px;
 }
-.video-thumbnail-container{
-    margin-bottom: 10px; 
-}
-.video-thumbnail {
+.thumbnail-box {
     width: 100%;
 }
-.channel-pfp-container {
-    display: inline-block;
-    width: 40px;
-    margin-right: 10px;
+.thumbnail {
+    width: 100%;
+}
+.lower-container {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    column-gap: 16px;
+    margin-top: 10px;
+}
+.channel-pfp-box {
+    width: 50px;
 }
 .channel-pfp {
     width: 100%;
-    border-radius: 34px;
-}
-.video-info {
-    vertical-align: top;
-    display: inline-block;
-    /* background-color: red; */
-    width: 87%;
+    border-radius: 25px;
 }
 .video-title {
-    font-size: 14px;
     font-weight: 500;
-    margin-bottom: 15px;
+    margin: 0;
+    margin-bottom: 15px; 
 }
-.channel-name, .video-stats{
-    font-size: 13px;
+.creator-name , .video-stats{
+    font-size: 14px;
     color: rgb(96, 96, 96);
 }
-.channel-name {
+.creator-name {
     margin-bottom: 4px;
 }
