@@ -1,0 +1,106 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    margin-right: 60px
+}
+
+.menu-logo {
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.yt-logo {
+    height: 20px;
+}
+
+.middle-section {
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.search-box {
+    height: 36px;
+    flex: 1;
+    flex-shrink: 1;
+    width: 0px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 2px;
+    padding-left: 12px;
+    /* outline-style: solid; */
+    outline-width: 1px;
+    outline-color: rgb(0, 82, 235);
+}
+
+.search-box::placeholder {
+    font-size: 16px;
+    font-family: Roboto, Arial;
+}
+
+.search-button {
+    height: 40px;
+    width: 64px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 2px;
+    margin-left: -1px;
+    margin-right: 10px;
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
+}
+
+.search-button-img {
+    height: 70%;
+    margin-top: 4px;
+}
+
+.voice-search-button {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(248, 248, 248);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.voice-search-img {
+    height: 60%;
+    margin-top: 4px;
+}
+
+.right-section {
+    width: 180px;
+    display: flex;
+    flex-shrink: 0 ;
+    margin-left: 30px;
+    justify-content: space-between;
+    padding-right: 25px;
+}
+.upload-icon {
+    width: 25px;
+}
+
+.yt-apps-logo {
+    width: 25px;
+}
+
+.notifcation-logo {
+    width: 25px;
+}
+
+.my-channel {
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+    object-position: 80%;
+    border-radius: 20px;
+}
