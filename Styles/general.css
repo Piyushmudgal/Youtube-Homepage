@@ -1,8 +1,9 @@
 p {
-    font-family: 'Roboto', sans-serif;
+    
     margin: 0px;
 }
 body {
+    font-family: 'Roboto', sans-serif;
     padding-left: 70px;
     padding-top: 56px;
     margin: 0px;

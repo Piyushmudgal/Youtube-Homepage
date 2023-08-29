@@ -29,25 +29,5 @@
 }
 
 .sidebar-icons-container div {
-    font-family: Roboto, Arial;
     font-size: 10px;
 }
-/* .sidebar-icons-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-}
-.sidebar-icons-container:hover {
-    background-color: rgb(235, 235, 235);
-}
-.sidebar-icon {
-    height: 23px;
-    width: 23px;
-    margin-right: 3px;
-}
-.icon-title {
-    margin-top: 8px;
-    font-size: 10px;
-} */
