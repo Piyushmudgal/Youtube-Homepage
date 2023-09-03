@@ -18,10 +18,30 @@
     margin-right: 60px
 }
 
-.menu-logo {
-    height: 24px;
+.menu-logo-container {
+    height: 35px;
+    width: 35px;
     margin-left: 24px;
-    margin-right: 24px;
+    margin-right: 16px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.1s;
+}
+
+.menu-logo-container:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+.menu-logo-container:active {
+    background-color: rgb(221, 221, 221);
+}
+
+.menu-logo {
+    height: 70%;
+    object-fit: cover;
     cursor: pointer;
 }
 
