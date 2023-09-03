@@ -12,7 +12,6 @@ function changeSidebar() {
 
 
   } else {
-      console.log('hi');
       sidebarElement.classList.remove('sidebar-expanded');
       sidebarElement.classList.add('sidebar-normal');
       document.querySelector('body').classList.remove('body-expanded');
