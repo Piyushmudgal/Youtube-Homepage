@@ -37,8 +37,12 @@
     width: 100%;
     position: relative;
 }
+.thumbnail:hover {
+    border-radius: 15px;
+}
 .thumbnail {
     width: 100%;
+    transition: border-radius 0.15s;
 }
 .video-time {
     background-color: black;

@@ -1,4 +1,4 @@
-.sidebar {
+/* .sidebar {
     position: fixed;
     top: 56px;
     left: 0;
@@ -30,4 +30,82 @@
 
 .sidebar-icons-container div {
     font-size: 10px;
+} */
+
+.sidebar {
+    position: fixed;
+    top: 56px;
+    left: 0;
+    bottom: 0;
+    width: 72px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4px;
+    z-index: 100;
+    transition: width 0.15s;
+}
+
+.sidebar-icons-container-normal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 74px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+.sidebar-icons-container-normal:hover,
+.sidebar-icons-container-expanded:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.sidebar-icons-container-normal:active,
+.sidebar-icons-container-expanded:active {
+    background-color: rgb(225, 225, 225);
+}
+
+.sidebar-icons-container-normal img {
+    height: 24px;
+    margin-bottom: 6px;
+}
+
+.sidebar-icons-container-normal div {
+    font-size: 10px;
+}
+
+.sidebar-expanded {
+    position: fixed;
+    top: 56px;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    z-index: 100;
+    padding-left: 10px;
+    transition: width 0.15s;
+}
+
+.sidebar-icons-container-expanded {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    cursor: pointer;
+    padding-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    transition: background-color 0.1s;
+}
+
+.sidebar-icons-container-expanded img {
+    height: 24px;
+    margin-right: 15px;
+}
+
+.sidebar-icons-container-expanded div {
+    font-size: 12px;
 }

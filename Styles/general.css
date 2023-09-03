@@ -8,7 +8,9 @@ body {
     padding-top: 56px;
     margin: 0px;
 }
-
+.body-expanded {
+    padding-left: 210px;
+}
 a {
     text-decoration: none;
     color: black;
