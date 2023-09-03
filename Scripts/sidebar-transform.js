@@ -1,6 +1,6 @@
 function changeSidebar() {
   const sidebarElement = document.querySelector('.sidebar');
-  if(sidebarElement.classList.value.includes('sidebar-normal')) {
+  if(sidebarElement.classList.contains('sidebar-normal')) {
       sidebarElement.classList.remove('sidebar-normal');
       sidebarElement.classList.add('sidebar-expanded');
       document.querySelector('body').classList.add('body-expanded');
